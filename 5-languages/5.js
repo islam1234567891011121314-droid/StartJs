@@ -2,6 +2,7 @@ const ru = ["ru","RU","Rus"];
 const jp = ["jp","JP","Jap"];
 const es = ["es","ES","Esp"];
 const fr = ["fr","FR","Fra"];
+const de = "de";
 const lang = String(prompt('Введите ваш язык из следующих вариантов: ru,jp,es,fr. По умолчанию будет стоит английский'))
 switch(lang){
     case "ru":
@@ -17,6 +18,9 @@ switch(lang){
         break
     case "fr":
         console.log('Bon après-midi!');
+        break
+    case "de":
+        console.log('Gutten tag!');
         break
     default:
          console.log('Good afternoon!');
