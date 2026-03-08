@@ -10,3 +10,4 @@ function distance(addressLat, addressLong,positionLat,positionLong){
     return (x2x1 + y2y1) ** 0.5
 }
 console.log(distance(11, 201, 124, -151))
+//Провто проверка форка
